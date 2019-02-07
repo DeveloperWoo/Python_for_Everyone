@@ -6,19 +6,20 @@ print("<Exercise 4.6>")
 
 def computepay(h,r):
     if(h <= 40):
-        return h * r
+        pay = h * r
     else:
         regularPay = 40 * r
         overtimePay = (h-40)*(r*1.5)
-        return regularPay + overtimePay
+        pay = regularPay + overtimePay
+    return(pay)
 
 hrs = input("Enter Hours:")
-hrsInNum = float(hrs)
 rate = input("Enter rate:")
+hrsInNum = float(hrs)
 rateInNum = float(rate)
 
 p = computepay(hrsInNum, rateInNum)
-print(p)
+print("Pay:", p)
 
 '''
 Exercise 7:
