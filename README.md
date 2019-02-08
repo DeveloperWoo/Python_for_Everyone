@@ -7,3 +7,4 @@ Textbook: “Python for Everybody”.
 4. Functions
 5. Iterations
 6. Strings
+7. Files
