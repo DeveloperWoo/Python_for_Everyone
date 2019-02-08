@@ -8,3 +8,4 @@ Textbook: “Python for Everybody”.
 5. Iterations
 6. Strings
 7. Files
+8. Lists
